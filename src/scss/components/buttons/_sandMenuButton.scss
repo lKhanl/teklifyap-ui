@@ -1,0 +1,38 @@
+@mixin sandMenuLines {
+  width: 40px;
+  height: 4px;
+  border-radius: 25px;
+}
+
+.lines-wrapper {
+  width: 48px;
+  height: 36px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.firstLine {
+  @include sandMenuLines;
+}
+
+.secondLine {
+  @include sandMenuLines;
+}
+
+.thirdLine {
+  @include sandMenuLines;
+}
+/*****************/
+.firstLine-off {
+    @include sandMenuLines;
+    transform: rotate(45deg)
+  }
+  
+  .secondLine-off {
+    @include sandMenuLines;
+    transform: rotate(-45deg)
+  }
+  
+  .thirdLine-off {
+    @include sandMenuLines;
+  }

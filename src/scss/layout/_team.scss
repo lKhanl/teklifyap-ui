@@ -1,0 +1,55 @@
+.team-descp-img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+}
+.circle1{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border:solid 8px;
+    border-color: $green;
+    background-color: $grey;
+
+}
+.nameSurname-line{
+    width:80%;
+    opacity: 1;
+    padding-bottom: 1.2px;
+    border-radius: 5px;
+    color:grey;
+}
+
+.roles{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.names{
+    color:grey;
+}
+.secondPerson{
+    margin-top: -3%;
+}
+.thirdPerson{
+    margin-top: -4%;
+}
+.forthPerson{
+    margin-top: -3%;
+}
+.fifthPerson{
+    margin-top: -1%;
+}
+.sixthPerson{
+    margin-top: 2%;
+}
+
+.role-descp{
+    font-size: 1.5rem;
+    z-index: 1;
+    color: $white;
+    font-family: $AsapCon;
+    font-weight: bolder;
+}

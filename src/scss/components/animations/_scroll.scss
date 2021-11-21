@@ -1,0 +1,148 @@
+
+/*******************************************FOR ABOUT**********************************************/
+.scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-out both;
+  }
+  .scrolled.fade-in-bottom-left {
+    animation: fade-in-bottom-left 1s ease-out both;
+  }
+  .scrolled.fade-in-bottom-right {
+    animation: fade-in-bottom-right 1s ease-out both;
+  }
+@keyframes fade-in-bottom {
+  0% {
+    
+    
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    
+    
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-bottom-left {
+    0% {
+      
+      
+      transform: translate(-50px,50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      
+      
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes fade-in-bottom-right {
+    0% {
+        transform: translate(50px,50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+  }
+
+/*******************************************FOR TEAM**********************************************/
+  .scrolled.fade-in-bottom-top {
+    animation: fade-in-bottom-top 1s ease-out both;
+  }
+ 
+
+  @keyframes fade-in-bottom-top {
+    0% {
+    
+        transform: translateY(70px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        
+        
+        opacity: 1;
+      }
+  }
+
+  /*******************************************FOR VISION**********************************************/
+
+  .scrolled.bigShape {
+    animation: bigShape 1s ease-out both;
+  }
+ 
+  .scrolled.bigShape22 {
+    animation: bigShape22 1s ease-out both;
+  }
+  .scrolled.smallShape {
+    animation: smallShape 1s ease-out both;
+  }
+
+  .scrolled.mediumShape {
+    animation: mediumShape 1s ease-out both;
+  }
+
+  @keyframes bigShape {
+    0% {
+    
+        transform: translate(80px,80px);
+        opacity: 0;
+        transform: rotate(-35deg);
+      }
+      100% {
+        transform: translate(80px,60px);
+     transform: rotate(0deg);
+        
+        opacity: 1;
+      }
+  }
+  @keyframes bigShape22 {
+    0% {
+    
+        transform: translate(50px);
+        opacity: 1;
+       
+      }
+      100% {
+        transform: translate(45px);
+    
+        
+        opacity: 1;
+      }
+  }
+
+  @keyframes mediumShape {
+    0% {
+    
+        transform: translate(80px,140px);
+        opacity: 0;
+        transform: rotate(-35deg);
+      }
+      100% {
+        transform: translate(80px,60px);
+     transform: rotate(0deg);
+        
+        opacity: 1;
+      }
+  }
+
+  @keyframes smallShape {
+    0% {
+    
+        transform: translateY(140px);
+        opacity: 0;
+        transform: rotate(6deg);
+      }
+      100% {
+        transform: translateY(60px);
+     transform: rotate(45deg);
+        
+        opacity: 1;
+      }
+  }

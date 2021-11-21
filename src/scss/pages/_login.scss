@@ -1,0 +1,87 @@
+.background-img {
+  position: absolute;
+  width: 220vh;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-cover-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.round {
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px 0px rgba(29, 29, 29, 0.705);
+}
+
+.password-remember-link {
+  font-family: $Roboto_Sans;
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+.password-remember-link {
+  &:hover {
+    color: rgba(0, 0, 0, 0.877);
+  }
+}
+
+.login-text {
+  font-family: $Roboto_Sans;
+  font-size: 1.4rem;
+  color: $white;
+}
+
+.or-text {
+  font-family: $Open_Sans;
+  font-weight: bold;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+.check {
+
+  font-family: $Roboto_Sans;
+  font-weight: normal;
+  cursor: pointer;
+
+  display: inline;
+}
+
+.account-none-text {
+  font-family: $Open_Sans;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.register-account-link {
+  color: $yellow;
+  font-family: $Open_Sans;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.register-account-link {
+  &:hover {
+    color: rgba(0, 0, 0, 0.877);
+  }
+}
+
+.warning-img {
+  width: 20px;
+}
+.warning-text {
+  color: $warning;
+  font-family: $Roboto_Sans;
+}

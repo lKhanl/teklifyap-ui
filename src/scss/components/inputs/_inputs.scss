@@ -1,0 +1,50 @@
+@mixin common() {
+  width: 280px;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 180, 0, 0.3);
+  box-shadow: 0 0 10px rgba(255, 180, 0, 1);
+}
+
+.inputs {
+//   width: 280px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.inputs:focus {
+  border-color: rgba(255, 180, 0, 0.3);
+  box-shadow: 0 0 10px rgba(255, 180, 0, 1);
+}
+
+.inputs::placeholder {
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.6;
+}
+/*TOOLTIP*/
+.hover-me:hover ~ .tooltip-wrapper {
+  display: block;
+}
+
+.tooltip-wrapper {
+  display: none;
+}
+.tooltip-wrapper-description {
+  background-color: #fff;
+  border: solid 2px #de4b38;
+  border-radius: 8px;
+}
+.warning-section {
+  background-color: #de4b38;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+  width: 30px;
+}
+
+.warning-white {
+  width: 25px;
+}
+.tooltip-wrapper-text {
+  color: #de4b38;
+
+  font-family: $Roboto_Sans;
+}

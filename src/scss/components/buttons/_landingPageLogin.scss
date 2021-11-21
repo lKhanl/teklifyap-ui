@@ -1,0 +1,41 @@
+@mixin commonLandingPageLoginOffer {
+  color: $white;
+  font-family: $Roboto_Sans;
+  font-size: medium;
+  border: 0;
+  border-radius: 0 30px 30px 0;
+  width: 160px;
+  height: 40px;
+  font-size: 1.1rem;
+}
+
+
+
+.btn-name {
+  @include commonLandingPageLoginOffer();
+  background-color: rgba(255, 180, 0, 0.5);
+}
+
+.prof-wrapper-login {
+  width: 70px;
+  height: 40px;
+  background-color: rgba(255, 180, 0, 1);
+  border-radius: 0 50% 50% 0;
+  transition: all 0.2s;
+}
+
+.btn-name {
+  &:hover {
+    .prof-wrapper-login {
+      width: 400px;
+      border-radius: 0 30px 30px 0;
+      transition: all 1s;
+      opacity: 1;
+      display: flex;
+      justify-content: start;
+    }
+  }
+}
+.prof-img {
+  width: 45px;
+}

@@ -1,0 +1,31 @@
+.profile-wrapper {
+    font-family: $Roboto_Sans;
+}
+
+.profile-circle {
+    width: 140px;
+    height: 140px;
+    border: solid;
+    border-color: $yellow;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+.profile-line {
+    margin-top: -10px;
+}
+
+.profile-info {
+    user-select: none;
+    font-size: 1.1rem;
+}
+
+.profile-info-label {
+    font-family: $Roboto_Sans;
+    font-weight: bold;
+}
+
+.round-corner {
+    border-radius: 50px;
+}
+

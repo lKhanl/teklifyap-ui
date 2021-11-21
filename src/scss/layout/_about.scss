@@ -1,0 +1,44 @@
+.aboutus-img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+
+  
+}
+.square2 {
+  width: 50px;
+  height: 14vw;
+}
+
+.lines {
+  color: #909097;
+}
+
+.about-descp {
+  color: $yellow;
+  font-family: $Open_Sans;
+  font-weight: 300;
+}
+.about-img {
+  background-color: $grey;
+}
+
+
+.js-scroll{
+  opacity: 0;
+}
+
+.js-scroll.about-top {
+  animation: fade-in 1s ease-in-out both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

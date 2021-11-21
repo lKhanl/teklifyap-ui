@@ -1,0 +1,77 @@
+{
+  "name": "accounting",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-pdf/renderer": "^1.6.17",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "html2pdf.js": "^0.10.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.13.5",
+    "node": "^16.9.1",
+    "node-sass": "^6.0.1",
+    "node-scss": "^7.0.3",
+    "pdf-viewer-reactjs": "^2.2.3",
+    "react": "^17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-body-backgroundcolor": "^1.2.1",
+    "react-bootstrap": "^2.0.0-rc.1",
+    "react-dom": "^17.0.2",
+    "react-pdf": "^5.4.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-sticky-mouse-tooltip": "0.0.1",
+    "react-swiper": "^0.1.5",
+    "react-to-pdf": "0.0.14",
+    "react-to-print": "^2.13.0",
+    "react-top-loading-bar": "^2.0.1",
+    "react-verification-code-input": "^1.2.9",
+    "react-wavify": "^1.5.4",
+    "reactjs-popup": "^2.0.5",
+    "redux": "^4.1.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.40.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.7.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

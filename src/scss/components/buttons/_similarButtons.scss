@@ -1,0 +1,53 @@
+@mixin common() {
+  font-family: $Raleway_Sans;
+  color: $white;
+  border-radius: 0 10px 10px 10px;
+  width: 100%;
+}
+
+//Login
+
+.log-btn {
+  @include common();
+  width: 100%;
+  background-color: $green;
+}
+//Register
+
+.reg-btn {
+  @include common();
+  color: $white;
+  width: 100%;
+  background-color: $yellow;
+}
+
+//Verify(email code)
+
+.verify-btn {
+  @include common();
+  background-color: $green;
+}
+
+//Send Code
+.code-btn {
+  @include common();
+  background-color: $blue;
+}
+
+//Successful Offers button(Offers Page)
+.tick-offer-btn {
+  @include common();
+  background-color: #3DC565;
+}
+
+//Unsuccessful Offers button(Offers Page)
+.untick-offer-btn {
+  @include common();
+  background-color: #E0593B;
+}
+
+//Unclassified Offers button(Offers Page)
+.nontick-offer-btn {
+  @include common();
+  background-color: $facebook;
+}

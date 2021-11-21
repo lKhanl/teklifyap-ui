@@ -1,0 +1,43 @@
+.footer-bg {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+}
+
+.square {
+  width: 50px;
+  height: 5vw;
+}
+.footer-descp {
+  font-family: $Open_Sans;
+  color: $yellow;
+  background-color: $grey;
+}
+.icon {
+  width: 12%;
+  background-color: $grey;
+}
+.find-us {
+  color: $yellow;
+  background-color: $grey;
+}
+
+.copyright2021 {
+  color: $yellow;
+  background-color: $grey;
+}
+
+.descp-wrapper {
+  background-color: $grey;
+  font-family: $Open_Sans;
+}
+
+.gplay {
+  background-color: $grey;
+}
+
+.footer-bottom {
+  background-color: $grey;
+}

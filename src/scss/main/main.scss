@@ -1,0 +1,53 @@
+/**abstracts**/
+@import "../abstracts/_colors";
+@import "../abstracts/_typography";
+@import "../abstracts/_commons";
+
+/**components**/
+
+//animations
+
+@import "../components/animations/_scroll";
+
+//buttons
+
+@import "../components/buttons/_verifyProduct";
+@import "../components/buttons/_correctInfo";
+@import "../components/buttons/_facebook";
+@import "../components/buttons/_google";
+@import "../components/buttons/_similarButtons";
+@import "../components/buttons/_landingPageLogin";
+@import "../components/buttons/_landingPageOffer";
+@import "../components/buttons/_maxWidth";
+@import "../components/buttons/_productB";
+@import "../components/buttons/_themeButton";
+@import "../components/buttons/_sandMenuButton";
+@import "../components/buttons/_makeofferB";
+
+//inputs
+@import "../components/inputs/_inputs";
+
+/**layout**/
+
+@import "../layout/_about";
+@import "../layout/_footer";
+@import "../layout/_navbar";
+@import "../layout/_team";
+@import "../layout/_vision";
+
+/**pages**/
+
+@import "../pages/_popup";
+@import "../pages/_inventory";
+@import "../pages/_profile";
+@import "../pages/_profileCorrect";
+@import "../pages/_login";
+@import "../pages/_offers";
+@import "../pages/_home";
+@import "../pages/_notFound";
+@import "../pages/_makeOffer";
+
+/**themes**/
+
+@import "../themes/_dark";
+@import "../themes/_default";

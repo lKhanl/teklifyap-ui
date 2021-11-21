@@ -1,0 +1,132 @@
+{
+  "kullanicilar": [
+    {
+      "enteredname": "Hakan",
+      "enteredsurname": "Bulut",
+      "enteredEmail": "hkb2556@outlook.com",
+      "enteredPassword": "aa",
+      "id": 1
+    },
+    {
+      "enteredname": "İshak",
+      "enteredsurname": "Çoban",
+      "enteredEmail": "ishakcobaaaa@outlook.com",
+      "enteredPassword": "aa",
+      "id": 2
+    },
+    {
+      "enteredname": "Mert",
+      "enteredsurname": "Çelik",
+      "enteredEmail": "mert99@outlook.co",
+      "enteredPassword": "zzz",
+      "id": 3
+    },
+    {
+      "enteredname": "Hilal",
+      "enteredsurname": "Karaman",
+      "enteredEmail": "karaman9555@outlook.com",
+      "enteredPassword": "aa",
+      "id": 4
+    },
+    {
+      "enteredname": "ishak",
+      "enteredsurname": "coban",
+      "enteredEmail": "ishakcoban99@outlook.com",
+      "enteredPassword": "aa",
+      "id": 5
+    }
+  ],
+  "products":[
+    {
+      "title":"Tuğla",
+      "unit":"M2",
+      "unit_per_price":"220",
+      "id": 1
+    },
+    {
+      "title":"Beton",
+      "unit":"M3",
+      "unit_per_price":"212",
+      "id": 2
+    },
+    {
+      "title":"Demir",
+      "unit":"TON",
+      "unit_per_price":"420",
+      "id": 3
+    },
+    {
+      "title":"Hasır Çelik",
+      "unit":"TON",
+      "unit_per_price":"433",
+      "id": 4
+    },
+    {
+      "title":"Proje",
+      "unit":"ADET",
+      "unit_per_price":"152",
+      "id": 5
+    },
+    {
+      "title":"Saha Betonu",
+      "unit":"M2",
+      "unit_per_price":"456",
+      "id": 6
+    },
+    {
+      "title":"GroBetonu",
+      "unit":"M3",
+      "unit_per_price":"198",
+      "id": 7
+    },
+    {
+      "title":"Saha Betonu",
+      "unit":"M2",
+      "unit_per_price":"456",
+      "id": 8
+    },
+    {
+      "title":"Harita Isleri",
+      "unit":"Adet",
+      "unit_per_price":"620",
+      "id": 9
+    },
+    {
+      "title":"Saha Betonu",
+      "unit":"M2",
+      "unit_per_price":"456",
+      "id": 10
+    },
+    {
+      "title":"Proje",
+      "unit":"ADET",
+      "unit_per_price":"152",
+      "id": 11
+    },
+    {
+      "title":"Tuğla",
+      "unit":"M2",
+      "unit_per_price":"220",
+      "id": 12
+    },
+    {
+      "title":"Tuğla",
+      "unit":"M2",
+      "unit_per_price":"220",
+      "id": 13
+    },
+    {
+      "title":"Tuğla",
+      "unit":"M2",
+      "unit_per_price":"220",
+      "id": 14
+    },
+    {
+      "title":"Tuğla",
+      "unit":"M2",
+      "unit_per_price":"220",
+      "id": 15
+    }
+
+  ]
+}

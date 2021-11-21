@@ -1,0 +1,55 @@
+.swiper-button-next {
+  background-image: url(../../images/arrow-01.svg);
+  background-repeat: no-repeat;
+  background-size: 120% auto;
+  background-position: center;
+  margin-top: -18%;
+  width: 8%;
+  height: 80%;
+  padding: 5%;
+}
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background-image: url(../../images/leftArrow-01.svg);
+  background-repeat: no-repeat;
+  background-size: 120% auto;
+  background-position: center;
+  margin-top: -18%;
+  width: 8%;
+  height: 80%;
+  padding: 5%;
+}
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.247);
+  transition: all 0.5s;
+}
+.swiper-button-next:hover {
+    background-color: rgba(0, 0, 0, 0.247);
+    transition: all 0.5s;
+  }
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-button-prev {
+  color: #22b14c;
+}
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #22b14c;
+  padding: 1%;
+}
+.swiper-pagination-bullet {
+  background-color: #22b14c;
+  opacity: 1;
+}
+.swiper-container {
+  width: 100%;z-index: 0;
+}
+.swiper-container img {
+  width: 25%;
+  height: auto;
+  
+}

@@ -1,0 +1,24 @@
+.google-btn{
+    width: 100%;
+    background-color: $google;
+    font-family: $Raleway_Sans;
+    color: $white;
+}
+
+.google-image{
+    width: 30px;
+}
+
+.google-title{
+    align-self: center;
+    font-size: 0.8rem;
+}
+
+.btn{
+    &:hover{
+        color: white;
+        opacity: 0.8;
+        transition: all 0.4s;
+        }
+
+}

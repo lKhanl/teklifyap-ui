@@ -1,0 +1,78 @@
+/*NAVBAR*/
+.navbar-wrapper-default-theme {
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all 1s;
+}
+
+.navbar-logo-name-default-theme {
+  color: black;
+}
+
+.links-default-theme {
+  color: black;
+}
+
+.profile-dropdown-default-theme {
+  color: black;
+}
+
+.dropdown-content-default-theme {
+  background-color: #f1f1f1;
+  transition: all 1s;
+}
+
+.dropdown-content-default-theme a {
+  color: black;
+}
+
+.dropdown-content-dark-theme a:hover {
+  background-color: $grey;
+}
+.navbar-dd-links-default-theme {
+  background-color: #f1f1f1;
+}
+
+.each-link-default-theme {
+  color: black;
+}
+
+.log-reg-symbol-text-default-theme {
+  color: black;
+}
+
+/*LOGIN PAGE*/
+.round-default-theme {
+  background-color: #fff;
+  transition: all 1s;
+}
+
+.or-text-default-theme {
+  color: black;
+}
+.password-remember-link-default-theme {
+  color: rgb(104, 101, 101);
+}
+
+.check-default-theme {
+  color: rgb(104, 101, 101);
+}
+/*sandMenuButton*/
+
+.firstLine-default-theme {
+  background-color: black;
+}
+.secondLine-default-theme {
+  background-color: black;
+}
+
+.thirdLine-default-theme {
+  background-color: black;
+}
+
+.firstLine-off-default-theme{
+  background-color: black;
+}
+
+.secondLine-off-default-theme{
+  background-color: black;
+}

@@ -1,0 +1,105 @@
+
+.theme-wrapper {
+    width: 80px;
+    height: 20px;
+    //background-color: rgba(128, 128, 128, 0.637);
+    background-color: #666f7e;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .darktheme-logo {
+    width: 30px;
+  }
+  
+  .defaulttheme-logo {
+    width: 30px;
+  }
+  .default-off {
+    margin-left: 0px;
+    display: flex;
+    justify-content: end;
+    animation-name: defaultOff;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+  }
+  @keyframes defaultOff {
+      0% {
+          opacity: 0;
+        }
+        25% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+          margin-left: -50px;
+        }
+  }
+  .default-on {
+    display: flex;
+    
+    justify-content: start;
+    opacity: 1;
+    animation-name: defaultOn;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    
+  }
+  
+  @keyframes defaultOn {
+      0% {
+          opacity: 1;
+        }
+        25% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+          margin-left: 50px;
+        }
+  }
+  
+  .dark-on {
+    display: flex;
+    justify-content: end;
+    opacity: 1;
+    animation-name: darkOn;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+  }
+  
+  @keyframes darkOn {
+      0% {
+        opacity: 1;
+      }
+      25% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        margin-left: -50px;
+      }
+    }
+  
+  
+  .dark-off {
+    display: flex;
+    justify-content: start;
+    opacity: 1;
+    animation-name: darkoff;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+  }
+  
+  @keyframes darkoff {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 50px;
+    }
+  }
+  

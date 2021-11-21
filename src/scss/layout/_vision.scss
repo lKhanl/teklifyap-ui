@@ -1,0 +1,58 @@
+.vision-img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+}
+
+.square3 {
+  width: 50px;
+  height: 10vw;
+}
+.vision-descp{
+    color:$yellow;
+}
+.left-shapes {
+  background-color: $grey;
+}
+
+.right-shapes {
+  background-color: $grey;
+}
+.shapeBig {
+  width: 20%;
+  z-index: 1;
+  left: 10%;
+  top: 40%;
+  transform: rotate(-20deg);
+}
+.shapeMedium {
+  width: 15%;
+  z-index: 2;
+  top: 8%;
+  left: 4%;
+  transform: rotate(-20deg);
+}
+.shapeSmall {
+  width: 20%;
+  z-index: 3;
+  margin-left: -4%;
+  transform: rotate(-20deg);
+}
+
+.shapeBig2 {
+  width: 10%;
+  transform: rotate(180deg);
+  right: 3%;
+}
+.shapeMedium2 {
+  width: 15%;
+  right: 6%;
+  transform: rotate(180deg);
+}
+.shapeSmall2 {
+  width: 35%;
+  
+  transform: rotate(180deg);
+}
